@@ -53,6 +53,12 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
+# Starter Project: Retro Arcade Console 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UlN1hSnhQcY?si=dF2FZOEe-0TgTIOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The CPU of the console reads the input of the seven buttons to determine what to do based of its pre-coded information. It sends binary code to the LED's to tell each LED to turn either on or off. There are two options to power the arade: USB and batteries. It is powered by three AAA batteries, connected through a red and black wire to the USB port to describute energy to all components. I struggled with making the buzzer work that is short circuited. The instructors and I could not fix it because we did not understand why it is shorting. After finishing my starter project, I will be working on my main project which is the three joint robotic arm. 
+
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
@@ -87,9 +93,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-# Starter Project: Retro Arcade Console 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UlN1hSnhQcY?si=dF2FZOEe-0TgTIOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-The CPU of the console reads the input of the seven buttons to determine what to do based of its pre-coded information. It sends binary code to the LED's to tell each LED to turn either on or off. There are two options to power the arade: USB and batteries. It is powered by three AAA batteries, connected through a red and black wire to the USB port to describute energy to all components. I struggled with making the buzzer work that is short circuited. The instructors and I could not fix it because we did not understand why it is shorting. After finishing my starter project, I will be working on my main project which is the three joint robotic arm. 
+- 
