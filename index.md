@@ -88,4 +88,8 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+# Starter Project: Retro Arcade Console 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UlN1hSnhQcY?si=dF2FZOEe-0TgTIOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The CPU of the console reads the input of the seven buttons to determine what to do based of its pre-coded information. It sends binary code to the LED's to tell each LED to turn either on or off. There are two options to power the arade: USB and batteries. It is powered by three AAA batteries, connected through a red and black wire to the USB port to describute energy to all components. I struggled with making the buzzer work that is short circuited. The instructors and I could not fix it because we did not understand why it is shorting. After finishing my starter project, I will be working on my main project which is the three joint robotic arm. 
