@@ -94,20 +94,84 @@ The lesson I learned with my starter project is to be cautious and accurate with
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
 
 ```c++
+
+#include <Servo.h>
+#include <Joystick.h>
+
+Servo Servo_1;
+Servo Servo_2;
+Servo Servo_3;
+Servo Servo_4;
+
+struct ServoTarget {
+  int ServoLocation;
+  int ServoDestination;
+};
+
+ServoTarget ServoTarget_1;
+ServoTarget ServoTarget_2;
+ServoTarget ServoTarget_3;
+ServoTarget ServoTarget_4;
+
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+
+  Servo_1.attach(4);
+  Servo_2.attach(5);
+  Servo_3.attach(6);
+  Servo_4.attach(7);
+
+  ServoTarget_1.ServoDestination = 110;
+  ServoTarget_2.ServoDestination = 90;
+  ServoTarget_3.ServoDestination = 90;
+  ServoTarget_4.ServoDestination = 90;
+}
+
+void UpdateServo(ServoTarget & Motion) {
+  // holds positioning of servo through increments of disposition
+
+  int diff = (Motion.ServoDestination - Motion.ServoLocation) / 2;
+  Motion.ServoLocation += diff;
+
+  if (0 > Motion.ServoDestination) {
+    Motion.ServoDestination = 0;
+  }
+
+  if (180 < Motion.ServoDestination) {
+    Motion.ServoDestination = 180;
+  }
+
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
 
+  int LX = analogRead(A0)/100 - 5;
+  int LY = analogRead(A1)/100 - 5;
+
+  int RX = analogRead(A2)/100 - 5;
+  int RY = analogRead(A3)/100 - 5;
+
+  ServoTarget_1.ServoDestination += LY;
+  ServoTarget_2.ServoDestination += LX;
+  ServoTarget_3.ServoDestination += RX;
+  ServoTarget_4.ServoDestination += RY;
+  delay(25);
+
+  UpdateServo(ServoTarget_1);
+  UpdateServo(ServoTarget_2);
+  UpdateServo(ServoTarget_3);
+  UpdateServo(ServoTarget_4);
+
+  Servo_1.write(ServoTarget_1.ServoLocation);
+  Servo_2.write(ServoTarget_2.ServoLocation);
+  Servo_3.write(ServoTarget_3.ServoLocation);
+  Servo_4.write(ServoTarget_4.ServoLocation);
+  
 }
-``` -->
 
 # Bill of Materials
 
