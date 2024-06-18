@@ -42,12 +42,6 @@ To reach my final Milestone, I would need to build my robotic arm and finally te
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zen-y9g0eFM?si=V7BoQDgwfVFaTILo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
-
 My first Milestone demonstrates the functions of the joystick to my Arduino. The displacement of the joystick is measured using a potentiometer. Potentiometers create a graph that contain x and y axes to display the location numarically of the joystick. These inputs are first fed through three female to female wires into the Arduino to finally transfer into the Arduino IDE on my computer. The output is shown using a serial motor that constantly sends lines of x, y, and z points depending on the joystick position. But the z axis will stay as 0 beacause the potentiometer does not calculate the displacment in height even when the joystick is pressed down. I have currently not built anything of the physical robot, but have only tested my systems and code.
 
 The only minor problems I had faced during my first Milestone was trying to place the female to female wires onto the Arduino pins. The pins are tightly grouped and leave very little space for each wire to slot in. The heads of the wire were also very loose, making it very easy to unplug if tugged slightly. The only solution to my challenges are to be careful with the wires and to have patience when connecting them to my Arduino.
