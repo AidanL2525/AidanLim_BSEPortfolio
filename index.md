@@ -9,7 +9,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Aidan L | Leigh | Mechanical Engineering | Incoming Sophomore
+| Aidan L | Leigh High School | Mechanical Engineering | Incoming Sophomore
 
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
@@ -27,17 +27,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE -->
 
-<!--- # Second Milestone
+# Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/62v-hwCqD9Y?si=V5SEFIW0lsW38_ax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone -->
 
 My second Milestone shows the compatibility of the servo to my Arduino. The micro servo has many gears and a small circuit board that can control how much the gears turn through inputs. These inputs can be read through my Arudino IDE on my computer that outputs the information to my Arduino. The data then flows through the three female to female wires into the servo's circuit board. The numbers I input are numerical and each represents an angle. For example, if I input the number 3, the servo will rotate 60 degrees. These servos will be used to move the base, joints, and pincers of the robotic arm. So far, the instructions have been fairly easy to follow, only consisting of testing the robotic components. 
 
