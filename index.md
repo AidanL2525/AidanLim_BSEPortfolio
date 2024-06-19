@@ -51,11 +51,8 @@ The only minor problems I had faced during my first Milestone was trying to plac
 
 My plan for my second Milestone is to follow each and every step of my main project guide properly and precisely. 
 
-<!--- # Schematics 
+# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 # Final Project Code 
 
@@ -164,25 +161,22 @@ I fought against two main problems: making the buzzer work and going back to fix
 
 The lesson I learned with my starter project is to be cautious and accurate with my work. This will help me progess through my final project smoothly without any difficulties. After finishing my starter project, I will be working on my main project which is the Three Joint Robotic Arm. 
 
-<!--- # Schematics 
+# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs.-->
 
 # Starter Project Code 
 
 To Create the 5 Retro Classic Games
 
 ```c++
-ALL CODE WAS PRE-PROGRAMMED 
+ALL CODE WAS PRE-PROGRAMMED INTO THE CPU
 ``` 
 
 # Bill of Materials
 
 | DIY Solder Retro Arcade Console | VOGURTIME's DIY Solder building kit of Retro Arcade Console | $18.49 | <a href="https://www.amazon.com/Electronic-Soldering-Practice-Comfortable-VOGURTIME/dp/B094QRRHC2/ref=sr_1_3?crid=12C0SOV36FG6M&dib=eyJ2IjoiMSJ9.Prj06eg0mzBHrfW8zuFr43Ott4t2wUOVBo8A8bYw0PqFZRlOEmgR5YwhMy7jXrdI2HlBjVttnEyYLz5CP684SzJyHmVMBp25vNna9o8wjV-df55ilTgj0xMy1CiRwkcnu6xqacZ3JUPlq8C3mQJwmEtoeokndNqpwpdkZBQMplM9vg3M-cfB0xM_nXdjeqHQ3bB707ehrzX6Llp-Euu3CTFzF8wgEqhPwo6RCvzbo5M.yyrFg8EXJr9BL5cOgZF551-8cIl91p0MSy8nGiilcpU&dib_tag=se&keywords=arcade%2Bsolder%2Bproject&qid=1717994267&sprefix=arcade%2Bsolder%2Bprojec%2Caps%2C147&sr=8-3&th=1"> Link </a> |
 
-# Other Resources/Examples
+<!--- # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
