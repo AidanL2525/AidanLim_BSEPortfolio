@@ -53,7 +53,11 @@ My plan for my second Milestone is to follow each and every step of my main proj
 
 # Schematics 
 
+![Three Joint Robotic Arm Schematic](Three Joint Robotic Arm Schematic.png)
 ![Wiring Schematic](Wiring Schematic.png)
+![Arduino Nano Schematic](Arduino Nano Schematic.png)
+![Joystick Schematic](Joystick Schematic.png)
+![Servo Schematic](Servo Schematic.png)
 
 # Final Project Code 
 
