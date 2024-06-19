@@ -53,7 +53,7 @@ My plan for my second Milestone is to follow each and every step of my main proj
 
 # Schematics 
 
-![Three Joint Robotic Arm Schematic](Three Joint Robotic Arm Schematic.png)
+![Three Joint Robotic Arm](Three Joint Robotic Arm Schematic.png)
 
 ![Wiring Schematic](Wiring Schematic.png)
 
