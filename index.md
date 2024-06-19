@@ -52,7 +52,8 @@ The only minor problems I had faced during my first Milestone was trying to plac
 My plan for my second Milestone is to follow each and every step of my main project guide properly and precisely. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
+![Controller Schematic](Controller Schematic.png)
 
 # Final Project Code 
 
@@ -162,7 +163,8 @@ I fought against two main problems: making the buzzer work and going back to fix
 The lesson I learned with my starter project is to be cautious and accurate with my work. This will help me progess through my final project smoothly without any difficulties. After finishing my starter project, I will be working on my main project which is the Three Joint Robotic Arm. 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+
+![Retro Arcade Game Schematics](Retro Arcade Console Schematic.jpg)
 
 # Starter Project Code 
 
