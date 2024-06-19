@@ -147,8 +147,11 @@ void loop() {
 # Bill of Materials
 
 | Cokoino Robotic Arm | Cokonio's building kit of Three Joint Robotic Arm | $49.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
+
 | YIKESHU 2WD Smart Robot Car Chassis Kit | Mobility for the Three Joint Robotic Arm | $18.99 | <a href="https://www.amazon.com/YIKESHU-Smart-Chassis-Encoder-Battery/dp/B073VHQT6P/ref=sr_1_2?crid=PJ0L8E9W0VVU&dib=eyJ2IjoiMSJ9.rAtzeTMewjqQtbfHoPTpllczQ2na8OWPtlJRUuewEoY.Hsresp6GxwOBatjmspXvGbFKHDawa3rjwxLRsZ6dDOA&dib_tag=se&keywords=yikeshu+2wk+smart+robotic+car&qid=1718731589&s=toys-and-games&sprefix=yikeshu+2wk+smart+robotic+c%2Ctoys-and-games%2C154&sr=1-2"> Link </a> |
-| HiLetgo HC-05 Wireless Bluetooth RF Transceiver | Bluetooth transmitter to Android phone to control remotely (It is not compatible with iOS devices, but can be used with OS devices. Ex. an Android phone.) | $10.39 | <a href="https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.Fvznp6fvF7wjC0kJ6xPyvRFh9TrLHlqb70zpeseXKYiXsVnnSomI7bFg3POK4yN5SYAJbh-wFY3h16kh4eqELdjpuRyqqfIkQK_QkpsgcrOVEAfG5gRtwVGzgtR5oBGO8RzX58HVx2ns_4dmCE-fXykk63D9uD5v_aNtR_6ZIAOefCoDhrxnSgE_rIJRJ_FE4cGnqRvdy6PsszvnY4HthKAKd9va-ilVFBpZlgxN7ic.Kdoj-AtF2A7jSgcsJKx0KAAZX8bjhtRzosEvWA6jaz8&dib_tag=se&keywords=hiletgo+hc-05+wireless&qid=1718731878&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+
+| HiLetgo HC-05 Wireless Bluetooth RF Transceiver | Bluetooth transmitter to Android phone to control remotely. It is not compatible with iOS devices, but can be used with OS devices. Ex. an Android phone. | $10.39 | <a href="https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.Fvznp6fvF7wjC0kJ6xPyvRFh9TrLHlqb70zpeseXKYiXsVnnSomI7bFg3POK4yN5SYAJbh-wFY3h16kh4eqELdjpuRyqqfIkQK_QkpsgcrOVEAfG5gRtwVGzgtR5oBGO8RzX58HVx2ns_4dmCE-fXykk63D9uD5v_aNtR_6ZIAOefCoDhrxnSgE_rIJRJ_FE4cGnqRvdy6PsszvnY4HthKAKd9va-ilVFBpZlgxN7ic.Kdoj-AtF2A7jSgcsJKx0KAAZX8bjhtRzosEvWA6jaz8&dib_tag=se&keywords=hiletgo+hc-05+wireless&qid=1718731878&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
+
 | TracFone Motorola moto g Pure (Android phone) | To control the smart robotic car remotely through my own app made using MIT App Inventor | $49.99 | <a href="https://www.amazon.com/TracFone-Motorola-Moto-Pure-32GB/dp/B0CHH1N9VY/ref=sr_1_1?crid=3H0EMGZ2XDU2H&dib=eyJ2IjoiMSJ9.clKUP8zpT3LgQhvuvfuiUvDqeq-907Wut8620NpI0vIpmGWVC-ShBg6Z3vGFFmKSSXgJqWVFEBOUpcsH2XfKSoL3Aj6TvdeNcWaSFTlLeuJI8rtQJLR0e2gDUEH6f4PiuiOcaENwP_9cNnAGT7C-GYn5eZEaonbYX1jpGCCY_DNHSrg78Hr8KrIEL111davpLqXDtttn3fvUswIsIoggs8b9ckSoS9IJGVHQ2lOeDpQ.5fqgRgw2toVuZa9z4ovXgbev262t99HW8GxvT7pUPX4&dib_tag=se&keywords=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure&qid=1718812513&sprefix=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure%2B%2Caps%2C153&sr=8-1&th=1"> Link </a> |
 <!--- 
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
@@ -159,7 +162,6 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/) 
-- 
 
 --> 
 
