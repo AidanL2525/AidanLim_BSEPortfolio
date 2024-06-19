@@ -9,10 +9,8 @@ My main project is the Three Joint Robotic Arm that I have modified to be attatc
 <!--- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg) -->
-  
-# Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+# Modifications Milestone
 
 <!--- <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -22,12 +20,22 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE -->
 
+# Final Milestone
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wq9YjPZBYSY?si=ElfX7R3dWFDeKhK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+My final Milestone displays the full functions of my Three Joint Robotic Arm. The robotic arm operates through the inputs from my two joysticks on my controller. The displacement of the joysticks are measured through the potentiometers to control different servos depending on which axes they move on. The female to female wires attached to the joysticks capture the motions to feed into the Arduino. Then, the Arduino uses the code from the Arduino IDE that Ben and I created to command the servos where to rotate. This information is transferred using more female to female wires from the Cokoino break up board (that is connected to the Arduino Nano) to run the servos. These functions individually control the robotic arm's three joints (including the pincers) and rotating base plate. The pincers are able to grasp onto certain light items, but the grip strength seems to be pretty weak. 
+
+I faced the most problems on my final Milestone. The first challenge was building the robotic arm. I found that the design of the robotic arm were ridiculous and not well thought-out, making it difficult to construct. This complication led me to my next obstacle: the base of the robotic arm chipping and breaking entirely. The structures D and E (the bases of the robotic arm) are slotted into structure C (the base plate of the robotic arm) using two small stubs on each base. The small amount of hold in the groves causes the design to be susceptible to horizontal bend. While tightening some bolts after I finish building it the first time, I pushed the robotic arm too far and broke one of my bases, making it completely dysfunctional. This mishap set me back a whole day trying to fix my mistake. I decided to add hot glue to the bases to support them further to prevent any future damage. My last barrier was that the given code not working with my robotic arm. When I thought all my hardships were over, the code was not functioning with my robotic arm. After some consideration, Ben had adviced me to recode everything beacause their code was not great and not working, so we decided to do it alongside his help. Ben had taught me many things when it comes to coding C++/on Arduino IDE and many other functions of different components, and I would like to thank him because I wouln't have been able to do it alone. When we finished it, the robotic arm worked flawlessly. 
+
+My last steps to complete my final project is to add my modification to attach the Three Joint Robotic Arm onto a robotic car to make it mobile. I will control the robotic car by using a bluetooth transceiver to connect to a Android phone, controlling it using an app that I would make on the MIT App Inventor.  
+
 # Second Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/62v-hwCqD9Y?si=V5SEFIW0lsW38_ax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-My second Milestone shows the compatibility of the servo to my Arduino. The micro servo has many gears and a small circuit board that can control how much the gears turn through inputs. These inputs can be read through my Arudino IDE on my computer that outputs the information to my Arduino. The data then flows through the three female to female wires into the servo's circuit board. The numbers I input are numerical and each represents an angle. For example, if I input the number 3, the servo will rotate 60 degrees. These servos will be used to move the base, joints, and pincers of the robotic arm. So far, the instructions have been fairly easy to follow, only consisting of testing the robotic components. 
+My second Milestone shows the compatibility of the servo to my Arduino. The micro servo has many gears and a small circuit board that can control how much the gears turn through inputs. These inputs can be read through my Arudino IDE on my computer that outputs the information to my Arduino. The data then flows through the three female to female wires into the servo's circuit board. The numbers inputted are numerical and each represent an angle. For example, if I input the number 3, the servo will rotate 60 degrees. These servos will be used to move the base, joints, and pincers of the robotic arm. So far, the instructions have been fairly easy to follow, only consisting of testing the robotic components. 
 
 The problem I had faced during my second Milestone was trying to get the servos working. My instructor Ben and I tried many things to make it function, even gathering data using the oscilloscope to see if the Arduino was actually making an output. We then decided to search up the servo online and realized it needed 4.8 volts to activate. We figured that my computer was outputting some amount of voltage into my Arduino because it was working when testing my joystick, but not enough energy to power the servos. We fixed this problem by easily attatching batteries into the Arduino. 
 
@@ -41,7 +49,7 @@ My first Milestone demonstrates the functions of the joystick to my Arduino. The
 
 The only minor problems I had faced during my first Milestone was trying to place the female to female wires onto the Arduino pins. The pins are tightly grouped and leave very little space for each wire to slot in. The heads of the wire were also very loose, making it very easy to unplug if tugged slightly. The only solution to my challenges are to be careful with the wires and to have patience when connecting them to my Arduino.
 
-My plan to complete my project is to follow each and every step of my main project guide properly and precisely. 
+My plan for my second Milestone is to follow each and every step of my main project guide properly and precisely. 
 
 <!--- # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -128,8 +136,8 @@ void loop() {
 
 # Bill of Materials
 
-| Cokoino Robotic Arm | Cokonio's building kit of 3 Joint Robotic Arm | $49.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
-| YIKESHU 2WD Smart Robot Car Chassis Kit | Mobility for the 3 Joint Robotic Arm | $18.99 | <a href="https://www.amazon.com/YIKESHU-Smart-Chassis-Encoder-Battery/dp/B073VHQT6P/ref=sr_1_2?crid=PJ0L8E9W0VVU&dib=eyJ2IjoiMSJ9.rAtzeTMewjqQtbfHoPTpllczQ2na8OWPtlJRUuewEoY.Hsresp6GxwOBatjmspXvGbFKHDawa3rjwxLRsZ6dDOA&dib_tag=se&keywords=yikeshu+2wk+smart+robotic+car&qid=1718731589&s=toys-and-games&sprefix=yikeshu+2wk+smart+robotic+c%2Ctoys-and-games%2C154&sr=1-2"> Link </a> |
+| Cokoino Robotic Arm | Cokonio's building kit of Three Joint Robotic Arm | $49.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
+| YIKESHU 2WD Smart Robot Car Chassis Kit | Mobility for the Three Joint Robotic Arm | $18.99 | <a href="https://www.amazon.com/YIKESHU-Smart-Chassis-Encoder-Battery/dp/B073VHQT6P/ref=sr_1_2?crid=PJ0L8E9W0VVU&dib=eyJ2IjoiMSJ9.rAtzeTMewjqQtbfHoPTpllczQ2na8OWPtlJRUuewEoY.Hsresp6GxwOBatjmspXvGbFKHDawa3rjwxLRsZ6dDOA&dib_tag=se&keywords=yikeshu+2wk+smart+robotic+car&qid=1718731589&s=toys-and-games&sprefix=yikeshu+2wk+smart+robotic+c%2Ctoys-and-games%2C154&sr=1-2"> Link </a> |
 | HiLetgo HC-05 Wireless Bluetooth RF Transceiver | Bluetooth transmitter to Android phone to control remotely (Cannot connect to Apple phones and any Android phone will work) | $10.39 | <a href="https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.Fvznp6fvF7wjC0kJ6xPyvRFh9TrLHlqb70zpeseXKYiXsVnnSomI7bFg3POK4yN5SYAJbh-wFY3h16kh4eqELdjpuRyqqfIkQK_QkpsgcrOVEAfG5gRtwVGzgtR5oBGO8RzX58HVx2ns_4dmCE-fXykk63D9uD5v_aNtR_6ZIAOefCoDhrxnSgE_rIJRJ_FE4cGnqRvdy6PsszvnY4HthKAKd9va-ilVFBpZlgxN7ic.Kdoj-AtF2A7jSgcsJKx0KAAZX8bjhtRzosEvWA6jaz8&dib_tag=se&keywords=hiletgo+hc-05+wireless&qid=1718731878&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 | TracFone Motorola moto g Pure (Android phone) | To control the smart robotic car remotely through my own app made using MIT App Inventor | $49.99 | <a href="https://www.amazon.com/TracFone-Motorola-Moto-Pure-32GB/dp/B0CHH1N9VY/ref=sr_1_1?crid=3H0EMGZ2XDU2H&dib=eyJ2IjoiMSJ9.clKUP8zpT3LgQhvuvfuiUvDqeq-907Wut8620NpI0vIpmGWVC-ShBg6Z3vGFFmKSSXgJqWVFEBOUpcsH2XfKSoL3Aj6TvdeNcWaSFTlLeuJI8rtQJLR0e2gDUEH6f4PiuiOcaENwP_9cNnAGT7C-GYn5eZEaonbYX1jpGCCY_DNHSrg78Hr8KrIEL111davpLqXDtttn3fvUswIsIoggs8b9ckSoS9IJGVHQ2lOeDpQ.5fqgRgw2toVuZa9z4ovXgbev262t99HW8GxvT7pUPX4&dib_tag=se&keywords=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure&qid=1718812513&sprefix=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure%2B%2Caps%2C153&sr=8-1&th=1"> Link </a> |
 <!--- | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
@@ -150,7 +158,7 @@ This is the Retro Arcade Console Starter Project. The console uses the pre-solde
 
 I fought against two main problems: making the buzzer work and going back to fix my work. The instructors and I could not fix it because we did not understand why it is shorting. The two solders were very far apart yet the multimeter was still reading a short. We tried using a wick to pick up any metal particles inbetween the two solders and Another problem I faced was having the fix my mistakes along the way. I strugged on having to go back on my work to make all of the components work properly. I had many errors such as the solder not fully touching the board and some shorts on the LED panel that caused two columns of LED's to not function. 
 
-The lesson I learned with my starter project is to be cautious and accurate with my work. This will help me progess through my final project smoothly without any difficulties. After finishing my starter project, I will be working on my main project which is the three joint robotic arm. 
+The lesson I learned with my starter project is to be cautious and accurate with my work. This will help me progess through my final project smoothly without any difficulties. After finishing my starter project, I will be working on my main project which is the Three Joint Robotic Arm. 
 
 <!--- # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
