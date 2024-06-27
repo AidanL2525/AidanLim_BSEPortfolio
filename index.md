@@ -51,15 +51,21 @@ The only minor problems I had faced during my first Milestone was trying to plac
 My plan for my second Milestone is to follow each and every step of my main project guide properly and precisely. 
 
 # Schematics
+Made by Cokoino 
 
+Three Joint Robotic Arm
 ![Three Joint Robotic Arm](Three Joint Robotic Arm Schematic.png)
 
+Wiring
 ![Wiring Schematic](Wiring Schematic.png)
 
+Arduino Nano
 ![Arduino Nano Schematic](Arduino Nano Schematic.png)
 
+Joystick
 ![Joystick Schematic](Joystick Schematic.png)
 
+Servo
 ![Servo Schematic](Servo Schematic.png)
 
 # Code: Final Project
@@ -171,7 +177,9 @@ I fought against two main problems: making the buzzer work and going back to fix
 The lesson I learned with my starter project is to be cautious and accurate with my work. This will help me progess through my final project smoothly without any difficulties. After finishing my starter project, I will be working on my main project which is the Three Joint Robotic Arm. 
 
 # Schematics
+Made by Etoput
 
+Retro Arcade Console
 ![Retro Arcade Game Schematic](Retro Arcade Console Schematic.jpg)
 
 # Code: Starter Project
