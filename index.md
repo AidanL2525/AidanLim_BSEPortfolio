@@ -20,7 +20,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE -->
 
-# Final Milestone
+# Final Milestone: 6/19/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wq9YjPZBYSY?si=ElfX7R3dWFDeKhK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -30,10 +30,9 @@ I faced the most problems on my final Milestone. The first challenge was buildin
 
 My last steps to complete my final project is to add my modification to attach the Three Joint Robotic Arm onto a robotic car to make it mobile. I will control the robotic car by using a bluetooth transceiver to connect to a Android phone, controlling it using an app that I would make on the MIT App Inventor.  
 
-# Second Milestone
+# Second Milestone: 6/18/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/62v-hwCqD9Y?si=V5SEFIW0lsW38_ax" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 My second Milestone shows the compatibility of the servo to my Arduino Nano. The micro servo has many gears and a small circuit board that can control how much the gears turn through inputs. These inputs can be read through my Arudino IDE on my computer that outputs the information to my Arduino. The data then flows through the three female to female wires into the servo's circuit board. The numbers inputted are numerical and each represent an angle. For example, if I input the number 3, the servo will rotate 60 degrees. These servos will be used to move the base, joints, and pincers of the robotic arm. So far, the instructions have been fairly easy to follow, only consisting of testing the robotic components. 
 
@@ -41,7 +40,7 @@ The problem I had faced during my second Milestone was trying to get the servos 
 
 To reach my final Milestone, I would need to build my robotic arm and finally test it.
 
-# First Milestone
+# First Milestone: 6/12/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zen-y9g0eFM?si=V7BoQDgwfVFaTILo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -161,7 +160,7 @@ One of the best parts about Github is that you can view how other people set up 
 
 --> 
 
-# Starter Project: Retro Arcade Console 
+# Starter Project: 6/11/24
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UlN1hSnhQcY?si=dF2FZOEe-0TgTIOz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
