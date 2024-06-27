@@ -53,6 +53,8 @@ My plan for my second Milestone is to follow each and every step of my main proj
 # Schematics
 Made by Cokoino 
 
+
+
 Three Joint Robotic Arm
 ![Three Joint Robotic Arm](Three Joint Robotic Arm Schematic.png)
 
@@ -153,6 +155,7 @@ void loop() {
 
 | Cokoino Robotic Arm | Cokonio's building kit of Three Joint Robotic Arm | $49.99 | <a href="https://www.amazon.com/LK-COKOINO-Compliment-Engineering-Technology/dp/B081FG1JQ1"> Link </a> |
 | 2WD Smart Robot Car | Mobility for the Three Joint Robotic Arm | $18.99 | <a href="https://www.amazon.com/YIKESHU-Smart-Chassis-Encoder-Battery/dp/B073VHQT6P/ref=sr_1_2?crid=PJ0L8E9W0VVU&dib=eyJ2IjoiMSJ9.rAtzeTMewjqQtbfHoPTpllczQ2na8OWPtlJRUuewEoY.Hsresp6GxwOBatjmspXvGbFKHDawa3rjwxLRsZ6dDOA&dib_tag=se&keywords=yikeshu+2wk+smart+robotic+car&qid=1718731589&s=toys-and-games&sprefix=yikeshu+2wk+smart+robotic+c%2Ctoys-and-games%2C154&sr=1-2"> Link </a> |
+| Motor Driver | Controls the DC motors on the 2WD Smart Robotic Car | $6.49 | <a href="https://www.amazon.com/Diymall-Module-Stepper-Modules-Arduino/dp/B00NJOTBOK/ref=asc_df_B00NJOTBOK/?tag=hyprod-20&linkCode=df0&hvadid=693611984328&hvpos=&hvnetw=g&hvrand=8381823413362305718&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032183&hvtargid=pla-2062985254553&psc=1&mcid=170f1bbf2f773d04a1c0254ec6413a12&gad_source=1"> Link </a> |
 | Bluetooth Transceiver | Bluetooth transmitter attached on the Arduino that connects to the Android phone (OS devices only) | $10.39 | <a href="https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.Fvznp6fvF7wjC0kJ6xPyvRFh9TrLHlqb70zpeseXKYiXsVnnSomI7bFg3POK4yN5SYAJbh-wFY3h16kh4eqELdjpuRyqqfIkQK_QkpsgcrOVEAfG5gRtwVGzgtR5oBGO8RzX58HVx2ns_4dmCE-fXykk63D9uD5v_aNtR_6ZIAOefCoDhrxnSgE_rIJRJ_FE4cGnqRvdy6PsszvnY4HthKAKd9va-ilVFBpZlgxN7ic.Kdoj-AtF2A7jSgcsJKx0KAAZX8bjhtRzosEvWA6jaz8&dib_tag=se&keywords=hiletgo+hc-05+wireless&qid=1718731878&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"> Link </a> |
 | Android Phone | To control the smart robotic car remotely through an app I made using MIT App Inventor | $49.99 | <a href="https://www.amazon.com/TracFone-Motorola-Moto-Pure-32GB/dp/B0CHH1N9VY/ref=sr_1_1?crid=3H0EMGZ2XDU2H&dib=eyJ2IjoiMSJ9.clKUP8zpT3LgQhvuvfuiUvDqeq-907Wut8620NpI0vIpmGWVC-ShBg6Z3vGFFmKSSXgJqWVFEBOUpcsH2XfKSoL3Aj6TvdeNcWaSFTlLeuJI8rtQJLR0e2gDUEH6f4PiuiOcaENwP_9cNnAGT7C-GYn5eZEaonbYX1jpGCCY_DNHSrg78Hr8KrIEL111davpLqXDtttn3fvUswIsIoggs8b9ckSoS9IJGVHQ2lOeDpQ.5fqgRgw2toVuZa9z4ovXgbev262t99HW8GxvT7pUPX4&dib_tag=se&keywords=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure&qid=1718812513&sprefix=tracfone%2Bmotorola%2Bmoto%2Bg%2Bpure%2B%2Caps%2C153&sr=8-1&th=1"> Link </a> |
 
